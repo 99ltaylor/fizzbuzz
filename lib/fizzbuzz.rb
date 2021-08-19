@@ -1,3 +1,6 @@
-def fizzbuzz(number)
-  "fizz"
+def fizzbuzz(x)
+  return "fizzbuzz" if x % 15 == 0
+  return "fizz" if x % 3 == 0
+  return "buzz" if x % 5 == 0
+  return x
 end
